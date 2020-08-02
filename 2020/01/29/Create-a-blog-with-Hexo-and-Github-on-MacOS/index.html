@@ -166,7 +166,6 @@
 </script>
     
 
-```
 
 <article class="post-wrap">
     <header class="post-header">
@@ -177,22 +176,22 @@
                     Author: <a itemprop="author" rel="author" href="/">Isy</a>
                 
 
-                
-                    <span class="post-time">
-                    Date: <a href="#">January 29, 2020&nbsp;&nbsp;17:50:31</a>
-                    </span>
-                
-                
-                    <span class="post-category">
-                Category:
-                        
-                            <a href="/categories/Tech/">Tech</a>
-                        
-                    </span>
-                
-            </div>
-        
-    </header>
+​                
+​                    <span class="post-time">
+​                    Date: <a href="#">January 29, 2020&nbsp;&nbsp;17:50:31</a>
+​                    </span>
+​                
+​                
+​                    <span class="post-category">
+​                Category:
+​                        
+​                            <a href="/categories/Tech/">Tech</a>
+​                        
+​                    </span>
+​                
+​            </div>
+​        
+​    </header>
 
     <div class="post-content">
         <p>Simply record what I have done.</p>
@@ -259,7 +258,7 @@
 
     </div>
 
-    
+​    
         <section class="post-copyright">
             
                 <p class="copyright-item">
@@ -281,33 +280,60 @@
             
             
 
-        </section>
-```
+​        </section>
 
+ 
+
+
+
+    <div id="gitalk-container"></div>
+​    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.5.2/dist/gitalk.css">
+
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.5.2/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+      var gitalk = new Gitalk({
+        clientID: 'b84cf2e7a8e75e300069',
+        clientSecret: 'a9ca7f0946ca47f382a92488d482e5f9ad13d154',
+        repo: 'wzy1029.github.io',
+        owner: 'Isy',
+        admin: 'Isy',
+        id: location.pathname,
+        labels: 'Gitalk'.split(',').filter(l => l),
+        perPage: 10,
+        pagerDirection: 'last',
+        createIssueManually: true,
+        distractionFreeMode: false
+      })
+      gitalk.render('gitalk-container')
+</script>
+
+
+
+
+    <section class="post-tags">
+        <div>
+            <span>Tag(s):</span>
+            <span class="tag">
+                
+                
+                    <a href="/tags/blog/"># blog</a>
+                
+                    
+            </span>
+        </div>
+        <div>
+            <a href="javascript:window.history.back();">back</a>
+            <span>· </span>
+            <a href="/">home</a>
+        </div>
+    </section>
+    <section class="post-nav">
         
-        <section class="post-tags">
-            <div>
-                <span>Tag(s):</span>
-                <span class="tag">
-                    
-                    
-                        <a href="/tags/blog/"># blog</a>
-                    
-                        
-                </span>
-            </div>
-            <div>
-                <a href="javascript:window.history.back();">back</a>
-                <span>· </span>
-                <a href="/">home</a>
-            </div>
-        </section>
-        <section class="post-nav">
-            
-                <a class="prev" rel="prev" href="/2020/04/30/%E5%85%B3%E9%94%AE%E5%AF%B9%E8%AF%9D/">《关键对话》</a>
-            
-            
-        </section>
+            <a class="prev" rel="prev" href="/2020/04/30/Crucial%20Conversations/">《关键对话》</a>
+        
+        
+    </section>
 
 
     </article>
